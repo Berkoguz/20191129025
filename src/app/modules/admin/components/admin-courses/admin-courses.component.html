@@ -1,0 +1,53 @@
+<button mat-raised-button (click)="AddCourse()" class="course-button" style="background-color: rgb(15, 192, 247);">Kitap Ekle</button>
+
+<table mat-table [dataSource]="courses" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef> Kitap </th>
+      <td mat-cell *matCellDef="let element" style="width: 15%;"> {{element.title}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef> Yazar </th>
+      <td mat-cell *matCellDef="let element" style="width: 30%;"> {{element.description}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="categorie">
+      <th mat-header-cell *matHeaderCellDef> Kategori </th>
+      <td mat-cell *matCellDef="let element" style="width: 15%;"> {{element.categorie}} </td>
+    </ng-container>
+  
+
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="urlImage">
+      <th mat-header-cell *matHeaderCellDef> Fotoğraf Yolu</th>
+      <td mat-cell *matCellDef="let element" style="width: 15%;"> {{element.urlImage}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="price">
+        <th mat-header-cell *matHeaderCellDef> Fiyat</th>
+        <td mat-cell *matCellDef="let element" style="width: 15%;"> {{element.price | currency:'TL&nbsp;':false }} </td>
+      </ng-container>
+ 
+
+     <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Eylemler </th>
+        <td mat-cell *matCellDef="let row" style="width: 15%;">
+                <button mat-icon-button matTooltip="Düzenlemek için tıklayınız" class="iconbutton" color="primary" (click)="Edit(row)">
+                        <mat-icon aria-label="Edit" >edit</mat-icon>
+                      </button>
+                    <button mat-icon-button matTooltip="Silmek için tıklayınız" class="iconbutton" color="warn" (click)="Delete(row)">
+                        <mat-icon aria-label="Delete">delete</mat-icon>
+               </button>
+        </td>
+      </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
