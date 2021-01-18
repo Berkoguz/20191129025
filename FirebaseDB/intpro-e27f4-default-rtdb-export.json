@@ -1,0 +1,181 @@
+{
+  "categories" : {
+    "Bilim" : {
+      "label" : "Bilim"
+    },
+    "Felsefe" : {
+      "label" : "Felsefe"
+    },
+    "Tarih" : {
+      "label" : "Tarih"
+    }
+  },
+  "courses" : [ null, {
+    "categorie" : "Tarih",
+    "description" : "Mustafa Kemal Atatürk",
+    "price" : 18,
+    "title" : "Nutuk",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000325204-1.jpg"
+  }, {
+    "categorie" : "Felsefe",
+    "description" : "Bertrand Russell",
+    "price" : 25,
+    "title" : "Mutlu Olma Sanatı",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000448817-1.jpg"
+  }, {
+    "categorie" : "Bilim",
+    "description" : "Albert Einstein",
+    "price" : 17.5,
+    "title" : "İzafiyet Teorisi",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000061201-1.jpg"
+  }, {
+    "categorie" : "Bilim",
+    "description" : "Carl Sagan",
+    "price" : 45,
+    "title" : "Kozmos",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000059256-1.jpg"
+  }, {
+    "categorie" : "Bilim",
+    "description" : "Richard Dawkins",
+    "price" : 39,
+    "title" : "Tanrı Yanılgısı",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000240160-1.jpg"
+  }, {
+    "categorie" : "Bilim",
+    "description" : "Sinan Canan",
+    "price" : 50,
+    "title" : "Unutulacak Şeyler",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000718552-1.jpg"
+  }, {
+    "categorie" : "Felsefe",
+    "description" : "Benedictus De Spinoza",
+    "price" : 51,
+    "title" : "Ethica",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000625847-1.jpg"
+  }, {
+    "categorie" : "Felsefe",
+    "description" : "Karl Marx",
+    "price" : 16,
+    "title" : "Das Kapital",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000623046-1.jpg"
+  }, {
+    "categorie" : "Tarih",
+    "description" : "Yuval Noah Harari",
+    "price" : 45,
+    "title" : "21.Yüzyıl için 21 Ders",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0001772576001-1.jpg"
+  }, {
+    "categorie" : "Tarih",
+    "description" : "Joseph Goebbels",
+    "price" : 38,
+    "title" : "Büyük Yalanlar",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0001841397001-1.jpg"
+  }, {
+    "categorie" : "Tarih",
+    "description" : "İlber Ortaylı",
+    "price" : 35,
+    "title" : "Türklerin Altın Çağı",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0001695406001-1.jpg"
+  }, {
+    "categorie" : "Tarih",
+    "description" : " J.M. Roberts",
+    "price" : 67,
+    "title" : "Avrupa Tarihi",
+    "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000345052-1.jpg"
+  } ],
+  "orders" : {
+    "-MRA4B2v3Vi89LIV_GZy" : {
+      "dateCreated" : 1610798644254,
+      "items" : [ {
+        "categorie" : "Bilim",
+        "description" : "Albert Einstein",
+        "key" : "3",
+        "price" : 17.5,
+        "title" : "İzafiyet Teorisi",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000061201-1.jpg"
+      }, {
+        "categorie" : "Bilim",
+        "description" : "Carl Sagan",
+        "key" : "4",
+        "price" : 45,
+        "title" : "Kozmos",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000059256-1.jpg"
+      } ],
+      "paid" : true,
+      "total" : 62.5,
+      "userId" : "hhgtmEtKOQMt55FslHP6eHsFrqA2"
+    },
+    "-MRFb9eVPqVhI7uiyWle" : {
+      "dateCreated" : 1610891438668,
+      "items" : [ {
+        "categorie" : "Bilim",
+        "description" : "Albert Einstein",
+        "key" : "3",
+        "price" : 17.5,
+        "title" : "İzafiyet Teorisi",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000061201-1.jpg"
+      }, {
+        "categorie" : "Bilim",
+        "description" : "Carl Sagan",
+        "key" : "4",
+        "price" : 45,
+        "title" : "Kozmos",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000059256-1.jpg"
+      } ],
+      "paid" : true,
+      "total" : 62.5,
+      "userId" : "hhgtmEtKOQMt55FslHP6eHsFrqA2"
+    },
+    "-MRJpt9bID7Ma3_o5lEt" : {
+      "dateCreated" : 1610962407113,
+      "items" : [ {
+        "categorie" : "Bilim",
+        "description" : "Albert Einstein",
+        "key" : "3",
+        "price" : 17.5,
+        "title" : "İzafiyet Teorisi",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000061201-1.jpg"
+      } ],
+      "paid" : true,
+      "total" : 17.5,
+      "userId" : "Cu7Evs3Sy6hc6pFVOH8gOPxpTa93"
+    },
+    "-MRJpxfUMKHVEfTJ-dwr" : {
+      "dateCreated" : 1610962425601,
+      "items" : [ {
+        "categorie" : "Felsefe",
+        "description" : "Bertrand Russell",
+        "key" : "2",
+        "price" : 25,
+        "title" : "Mutlu Olma Sanatı",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000448817-1.jpg"
+      }, {
+        "categorie" : "Tarih",
+        "description" : "Yuval Noah Harari",
+        "key" : "9",
+        "price" : 45,
+        "title" : "21.Yüzyıl için 21 Ders",
+        "urlImage" : "https://i.dr.com.tr/cache/600x600-0/originals/0001772576001-1.jpg"
+      } ],
+      "paid" : true,
+      "total" : 70,
+      "userId" : "Cu7Evs3Sy6hc6pFVOH8gOPxpTa93"
+    }
+  },
+  "shoppingCart" : {
+    "-MR4wT5usMtbcXrpUV-2" : {
+      "dateCreated" : 1610712473571
+    }
+  },
+  "users" : {
+    "Cu7Evs3Sy6hc6pFVOH8gOPxpTa93" : {
+      "email" : "alper.bora123@gmail.com",
+      "name" : "Alper Bora"
+    },
+    "hhgtmEtKOQMt55FslHP6eHsFrqA2" : {
+      "email" : "s.berkoguz@gmail.com",
+      "isAdmin" : "True",
+      "name" : "Berk Oğuz"
+    }
+  }
+}
